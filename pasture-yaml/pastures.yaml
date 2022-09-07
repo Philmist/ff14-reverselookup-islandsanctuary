@@ -1,0 +1,516 @@
+アイルポーション: 
+  hour: 4
+  units: 1
+  value: 33
+  treat:
+    - 薬品
+  material:
+    無人島のパームリーフ: 2
+    無人島の草葉: 2
+開拓工房の火薬:
+  hour: 4
+  units: 1
+  value: 33
+  treat:
+    - 薬品
+    - 窯業製品
+  material:
+    無人島の砂: 2
+    無人島の石灰岩: 1
+    無人島の草葉: 1
+開拓工房の焼き貝:
+  hour: 4
+  units: 1
+  value: 33
+  treat:
+    - 料理
+    - 海産製品
+  material:
+    無人島の二枚貝: 2
+    無人島の玉藻: 2
+アイルウッドネックレス:
+  hour: 4
+  units: 1
+  value: 33
+  treat:
+    - アクセサリ
+    - 木工製品
+  material:
+    無人島の小枝: 3
+    無人島のつる: 1
+開拓工房のザワークラフト:
+  hour: 4
+  units: 1
+  value: 48
+  treat:
+    - 保存食
+  material:
+    - アイルキャベツ
+    - 無人島の岩塩
+開拓工房の焼きパンプキン:
+  hour: 4
+  units: 1
+  value: 48
+  treat:
+    - 料理
+  material:
+    アイルパンプキン: 1
+    無人島の樹液: 3
+アイルクリナリーナイフ:
+  hour: 4
+  units: 1
+  value: 52
+  treat:
+    - 日用品
+    - 動物製品
+  material:
+    飼育動物の爪片: 1
+    無人島のパーム原木: 3
+アイルブラシ:
+  hour: 4
+  units: 1
+  value: 52
+  treat:
+    - 日用品
+    - 木工製品
+  material:
+    飼育動物の獣毛: 1
+    無人島のパーム原木: 3
+開拓工房のボイルドエッグ:
+  hour: 4
+  units: 1
+  value: 52
+  treat:
+    - 料理
+    - 動物製品
+  material:
+    飼育動物の卵: 1
+    無人島の玉藻: 3
+アイルファングイヤリング:
+  hour: 4
+  units: 1
+  value: 52
+  treat:
+    - アクセサリ
+    - 動物製品
+  material:
+    飼育動物の牙: 1
+    無人島のつる: 3
+開拓工房のバター:
+  hour: 4
+  units: 1
+  value: 52
+  treat:
+    - 調味料
+    - 動物製品
+  material:
+    飼育動物の乳: 1
+    無人島の岩塩: 3
+開拓工房のパースニップサラダ:
+  hour: 4
+  units: 1
+  value: 57
+  treat:
+    - 料理
+  material:
+    アイルパースニップ: 2
+    無人島の草葉: 1
+    無人島の樹液: 1
+アイルロープ:
+  hour: 4
+  units: 1
+  value: 43
+  treat:
+    - 日用品
+    - 布製品
+  material:
+    無人島の麻: 2
+    無人島の草葉: 1
+    無人島のつる: 1
+アイルインクペースト:
+  hour: 4
+  units: 1
+  value: 43
+  treat:
+    - 調味料
+    - 海産製品
+  material:
+    無人島のスキッド: 2
+    無人島の岩塩: 2
+アイルトマトケチャップ:
+  hour: 4
+  units: 1
+  value: 62
+  treat:
+    - 調味料
+  material:
+    アイルトマト: 2
+    無人島のサトウキビ: 1
+    無人島の草葉: 1
+開拓工房のコーンフレーク:
+  hour: 4
+  units: 1
+  value: 62
+  treat:
+    - 保存食
+  material:
+    アイルコーン: 2
+    無人島のサトウキビ: 2
+アイルウッドチェア:
+  hour: 6
+  units: 1
+  value: 50
+  treat:
+    - 調度品
+    - 木工製品
+  material:
+    無人島の原木: 4
+    無人島のつる: 2
+アイルコーラルリング:
+  hour: 6
+  units: 1
+  value: 50
+  treat:
+    - アクセサリ
+    - 海産製品
+  material:
+    無人島の珊瑚: 3
+    無人島のつる: 3
+アイルバルビュート:
+  hour: 6
+  units: 1
+  value: 50
+  treat:
+    - 防具
+    - 金属製品
+  material:
+    無人島の銅鉱: 3
+    無人島の砂: 3
+アイルマクアフティル:
+  hour: 6
+  units: 1
+  value: 50
+  treat:
+    - 武器
+    - 木工製品
+  material:
+    無人島のパーム原木: 3
+    無人島の石材: 3
+アイルチュニック:
+  hour: 6
+  units: 1
+  value: 86
+  treat:
+    - 防具
+    - 布製品
+  material:
+    飼育動物のフリース: 2
+    無人島のつる: 4
+アイルホラ:
+  hour: 6
+  untis: 1
+  value: 86
+  treat:
+    - 武器
+    - 動物製品
+  material:
+    飼育動物の脱皮殻: 2
+    無人島の石材: 4
+アイルブリックカウンター:
+  hour: 6
+  units: 1
+  value: 57
+  treat:
+    - 調度品
+    - 窯業製品
+  material:
+    無人島の粘土: 2
+    無人島の石灰岩: 2
+    無人島のパーム原木: 2
+開拓工房のスイートポテト:
+  hour: 6
+  units: 1
+  value: 86
+  treat:
+    - 菓子
+  material:
+    アイルポポト: 2
+    飼育動物の乳: 1
+    無人島の樹液: 3
+開拓工房のキャラメル:
+  hour: 6
+  units: 1
+  value: 97
+  treat:
+    - 菓子
+  material:
+    無人島のサトウキビ: 4
+    飼育動物の乳: 2
+アイルリボン:
+  hour: 6
+  units: 1
+  value: 64
+  treat:
+    - アクセサリ
+    - 布製品
+  material:
+    無人島の綿花: 2
+    無人島の銅鉱: 2
+    無人島のつる: 2
+アイルキャバリエハット:
+  hour: 6
+  units: 1
+  value: 97
+  treat:
+    - 防具
+    - 布製品
+  material:
+    飼育動物の羽根: 2
+    無人島の綿花: 2
+    無人島の麻: 2
+アイルホルン:
+  hour: 6
+  units: 1
+  value: 97
+  treat:
+    - 日用品
+    - 動物製品
+  material:
+    飼育動物の角片: 2
+    無人島の粘土: 2
+    無人島の麻: 2
+アイルソルトゴッド:
+  hour: 6
+  units: 1
+  value: 64
+  treat:
+    - 保存食
+    - 海産製品
+  material:
+    無人島の海水魚: 4
+    無人島の岩塩: 2
+開拓工房の仙薬:
+  hour: 6
+  units: 1
+  value: 64
+  treat:
+    - 薬品
+    - 海産製品
+  material:
+    無人島のジェリーフィッシュ: 2
+    無人島のパームリーフ: 2
+    無人島の玉藻: 2
+アイルベリージャム:
+  hour: 6
+  units: 1
+  value: 93
+  treat:
+    - 調味料
+  material:
+    アイルベリー: 3
+    無人島のサトウキビ: 2
+    無人島の樹液: 1
+開拓工房のオニオンスープ:
+  hour: 6
+  units: 1
+  value: 93
+  treat:
+    - 料理
+  material:
+    アイルオニオン: 3
+    無人島の岩塩: 2
+    無人島の草葉: 1
+開拓工房のフィッシュパイ:
+  hour: 6
+  units: 1
+  value: 93
+  treat:
+    - 菓子
+    - 海産製品
+  material:
+    アイル小麦: 3
+    無人島の海水魚: 2
+    無人島のサトウキビ: 1
+開拓工房の野菜ジュース:
+  hour: 6
+  units: 1
+  value: 93
+  treat:
+    - 薬品
+  material:
+    アイルキャベツ: 3
+    無人島の草葉: 2
+    無人島の玉藻: 1
+開拓工房のパンプキンプディング:
+  hour: 6
+  units: 1
+  value: 93
+  treat:
+    - 菓子
+  material:
+    アイルパンプキン: 3
+    飼育動物の卵: 1
+    飼育動物の乳: 1
+アイルシープラグ:
+  hour: 6
+  units: 1
+  value: 108
+  treat:
+    - 調度品
+    - 動物製品
+  material:
+    飼育動物のフリース: 3
+    無人島の綿花: 2
+    無人島の麻: 1
+アイルガーデンサイズ:
+  hour: 6
+  units: 1
+  value: 108
+  treat:
+    - 日用品
+    - 金属製品
+  material:
+    飼育動物の爪片: 3
+    無人島の鉄鉱: 2
+    無人島のパーム原木: 1
+シープのブロンズ像:
+  hour: 8
+  units: 1
+  value: 76
+  treat:
+    - 調度品
+    - 金属製品
+  material:
+    無人島の砂錫: 3
+    無人島の銅鉱: 3
+    無人島の原木: 2
+開拓工房のグロースフォーミュラ:
+  hour: 8
+  units: 1
+  value: 163
+  treat:
+    - 薬品
+  material:
+    無人島のアリッサム: 2
+    無人島の草葉: 3
+    無人島の小枝: 3
+アイルガーネットレイピア:
+  hour: 8
+  units: 1
+  value: 163
+  treat:
+    - 武器
+    - 窯業製品
+  material:
+    無人島のガーネット原石: 2
+    無人島の銅鉱: 3
+    無人島の砂錫: 3
+アイルスプルースシールド:
+  hour: 8
+  units: 1
+  value: 163
+  treat:
+    - 防具
+    - 木工製品
+  material:
+    無人島のスプルース原木: 2
+    無人島の銅鉱: 3
+    無人島の石材: 3
+開拓工房のシャークオイル:
+  hour: 8
+  units: 1
+  value: 163
+  treat:
+    - 日用品
+    - 海産製品
+  material:
+    無人島のハンマーヘッド: 2
+    無人島の玉藻: 3
+    無人島の樹液: 3
+アイルシルバーイヤーカフ:
+  hour: 8
+  units: 1
+  value: 163
+  treat:
+    - アクセサリ
+    - 金属製品
+  material:
+    無人島の銀鉱: 2
+    無人島の砂錫: 3
+    無人島の珊瑚: 3
+開拓工房のラディッシュピクルス:
+  hour: 8
+  units: 1
+  value: 124
+  treat:
+    - 保存食
+  material:
+    アイルラディッシュ: 4
+    無人島のアップル: 2
+    無人島のサトウキビ: 2
+アイルアイアンアクス:
+  hour: 8
+  units: 1
+  value: 86
+  treat:
+    - 武器
+    - 金属製品
+  material:
+    無人島の鉄鉱: 3
+    無人島の原木: 3
+    無人島の砂: 2
+アイルクォーツリング:
+  hour: 8
+  units: 1
+  value: 86
+  treat:
+    - アクセサリ
+    - 窯業製品
+  material:
+    無人島のクォーツ: 3
+    無人島の鉄鉱: 3
+    無人島の石材: 2
+開拓工房の磁器壺:
+  hour: 8
+  units: 1
+  value: 86
+  treat:
+    - 日用品
+    - 窯業製品
+  material:
+    無人島の花崗岩: 3
+    無人島のクォーツ: 3
+    無人島の粘土: 2
+アイルベッド:
+  hour: 8
+  units: 1
+  value: 144
+  treat:
+    - 調度品
+    - 布製品
+  material:
+    飼育動物の獣毛: 4
+    無人島の綿花: 2
+    無人島の原木: 2
+アイルスケイルフィンガー:
+  hour: 8
+  units: 1
+  value: 144
+  treat:
+    - 防具
+    - 動物製品
+  material:
+    飼育動物の脱皮殻: 4
+    無人島の鉄鉱: 2
+    無人島の綿花: 2
+アイルクルーク:
+  hour: 8
+  units: 1
+  value: 144
+  treat:
+    - 武器
+    - 木工製品
+  material:
+    飼育動物の牙: 4
+    無人島のクォーツ: 2
+    無人島の原木: 2
