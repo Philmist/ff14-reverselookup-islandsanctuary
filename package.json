@@ -3,9 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "run-s yaml2json vitedev",
+    "build": "run-s yaml2json vitebuild",
+    "preview": "run-s yaml2json vitepreview",
+    "vitedev": "vite",
+    "vitebuild": "vite build",
+    "vitepreview": "vite preview",
+    "yaml2json": "node ./util-scripts/yaml2json.js"
   },
   "dependencies": {
     "react": "^18.2.0",

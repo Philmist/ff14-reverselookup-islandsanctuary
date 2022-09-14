@@ -11,8 +11,6 @@ try {
     let treat = new Map();
     let material = new Map();
     for (const [k, v] of Object.entries(body)) {
-        console.log(k);
-        console.log(v);
         if (!hour.has(v["hour"])) {
             hour.set(v["hour"], []);
         }
@@ -63,8 +61,11 @@ try {
         "master": body
     };
     const jsonString = JSON.stringify(fullData, jsonReplacer, 2);
-    console.log(jsonString);
     // console.log(JSON.parse(jsonString));
+
+    const jsonPath = path.join(__dirname, "../json-data/pasture.json");
+    console.log(jsonPath);
+    fs.writeFileSync(jsonPath, jsonString);
 } catch (err) {
     console.log(err);
 }
