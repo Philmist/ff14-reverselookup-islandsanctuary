@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import PastureClassSelector from './PastureClassSelector.jsx';
+import PastureTable from './PastureTable.jsx';
 import masterData from '../json-data/pasture.json' assert { type: 'json' };
 
 function MasterRow(props) {
@@ -64,12 +65,19 @@ function App() {
   return (
     <div className="App">
       <PastureClassSelector checkedPastureDict={checkedPastureDict} setCheckedPastureDict={setCheckedPastureDict} />
+      <PastureTable checkedPasture={ Object.entries(checkedPastureDict).filter((ary) => { 
+        return (ary[1] === true); 
+      }).map((ary) => {
+        return ary[0];
+      })} />
+    </div>
+    /*
       <ul>
         {Object.entries(masterData.master).map((e) => (
           <MasterRow key={e[0]} name={e[0]} product={e[1]} />
         ))}
       </ul>
-    </div>
+    */
   );
 }
 
