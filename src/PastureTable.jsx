@@ -62,6 +62,7 @@ function PastureTable({ checkedPasture }) {
 
   }, [checkedPasture]);
 
+  // 対象素材なら色塗ってそれ以外なら色塗らないリスト
   const MaterialComponent = ({ productName, checked }) => {
     return (
       <dd>
@@ -70,7 +71,7 @@ function PastureTable({ checkedPasture }) {
           Object.entries(masterData.master[productName].material).map(([k, v]) => {
             const containClassName = (Object.hasOwn(checked, productName) && checked[productName].includes(k)) ? materialToClassDict[k] : "";
             return (
-              <li className={`column ${containClassName}`} key={k}>{k}: {v}</li>
+              <li className={`column column-33 ${containClassName}`} key={k}>{k}: {v}</li>
             );
           })
         }
@@ -84,15 +85,13 @@ function PastureTable({ checkedPasture }) {
       <dl>
         {
           productList.map((v) => {
+            const treatStr = masterData.master[v].treat.sort().reduce((p, v) => {return (p + v + " ")}, "");
             return (
               <div key={v} className="container product-entry">
-                <dt className="row"><div className="column">{v}</div></dt>
-              { false &&
-                <dd>基本価値: {masterData.master[v].value}{
-                  Object.hasOwn(checkedProduct, v) && (checkedProduct[v].length > 0) &&
-                  "hi"
-                }</dd>
-              }
+                <dt className="row">
+                  <div className="column column-40">{v}</div>
+                  <div className="column">{`${treatStr}`}</div>
+                </dt>
                 <MaterialComponent productName={v} checked={checkedProduct} />
               </div>
             );

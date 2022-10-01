@@ -4,6 +4,7 @@ import { extname } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/ff14-reverselookup-islandsanctuary/',
   plugins: [
     react({
       babel: {

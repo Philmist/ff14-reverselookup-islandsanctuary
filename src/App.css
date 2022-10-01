@@ -4,19 +4,40 @@ body {
   line-height: 1;
 }
 
-.pasture-label {
+input {
+  margin-bottom: 0.3rem;
+}
+
+label.pasture-label {
   display: block;
+  margin-top: 0.1rem;
   margin-bottom: 0.1rem;
 }
 
+
 .product-entry {
   border-style: solid;
-  border-color: black;
+  border-color: rgb(50, 50, 50);
   border-width: 2px;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
-.product-entry dt div.row, .product-entry dd, .product-entry dd ul.row {
-  margin: .5rem 0 .5rem 0;
+.product-entry > dt.row, .product-entry > dd, .product-entry > dd > ul.row {
+  margin: .2rem 0 .2rem 0;
+  padding: 0 .5rem 0 .5rem;
+}
+
+.product-entry > dd > ul.row > li {
+  padding: 1rem 1rem;
+}
+
+div.pasture-class {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pasture-class legend {
@@ -29,10 +50,6 @@ body {
 
 .pasture-class>legend {
   border: 1px solid transparent;
-}
-
-div.pasture-class-body {
-  border: 5px solid transparent;
 }
 
 .material-pick {
