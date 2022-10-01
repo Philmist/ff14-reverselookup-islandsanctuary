@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "run-s yaml2json vitedev",
     "build": "run-s yaml2json vitebuild",
-    "preview": "run-s yaml2json vitepreview",
+    "preview": "run-s vitepreview",
     "vitedev": "vite",
     "vitebuild": "vite build",
     "vitepreview": "vite preview",
