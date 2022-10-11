@@ -9,10 +9,13 @@ try {
   const body = yaml.load(fs.readFileSync(pastureFilename));
   const pastureClassFilename = path.join(__dirname, '../pasture-yaml/material.yaml');
   const pastureClass = yaml.load(fs.readFileSync(pastureClassFilename));
+  const granaryFileName = path.join(__dirname, '../pasture-yaml/granary.yaml');
+  const granary = yaml.load(fs.readFileSync(granaryFileName));
   const hour = new Map();
   const value = new Map();
   const treat = new Map();
   const material = new Map();
+
   for (const [k, v] of Object.entries(body)) {
     if (!hour.has(v.hour)) {
       hour.set(v.hour, []);
@@ -46,6 +49,7 @@ try {
       material.set(materialName, materialData);
     }
   }
+
   const pClass = new Map();
   for (const [k, v] of Object.entries(pastureClass)) {
     if (!pClass.has(k)) {
@@ -56,6 +60,11 @@ try {
       p.add(i);
       pClass.set(k, p);
     });
+  }
+
+  const granaryMap = new Map();
+  for (const [k, v] of Object.entries(granary)) {
+    granaryMap.set(k, new Set(v));
   }
 
   // @seealso https://qiita.com/bananacoffee/items/1c8d42cf2bdf24fd5ea7
@@ -83,6 +92,7 @@ try {
     'class-set': classSet.sort().reverse(),
     */
     class: pClass,
+    granary: granaryMap,
     /*
     hour,
     value,
