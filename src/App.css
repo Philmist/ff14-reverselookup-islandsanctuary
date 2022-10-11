@@ -67,3 +67,7 @@ div.pasture-class {
 .material-farming {
   background-color: rgb(255, 253, 219);
 }
+
+.granary-button {
+  margin-right: 0.5rem;
+}
