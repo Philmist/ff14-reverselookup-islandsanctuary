@@ -86,11 +86,12 @@ function PastureTable({ checkedPasture }) {
         {
           productList.map((v) => {
             const treatStr = masterData.master[v].treat.sort().reduce((p, v) => {return (p + v + " ")}, "");
+            const valueStr = new String(masterData.master[v].value);
             return (
               <div key={v} className="container product-entry">
                 <dt className="row">
                   <div className="column column-40">{v}</div>
-                  <div className="column">{`${treatStr}`}</div>
+                  <div className="column">{`@${valueStr}: ${treatStr}`}</div>
                 </dt>
                 <MaterialComponent productName={v} checked={checkedProduct} />
               </div>
