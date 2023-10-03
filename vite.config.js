@@ -6,11 +6,7 @@ import { extname } from 'path';
 export default defineConfig({
   base: '/ff14-reverselookup-islandsanctuary/',
   plugins: [
-    react({
-      babel: {
-        plugins: ['@babel/plugin-syntax-import-assertions'],
-      },
-    }),
+    react(),
     /*
     babel({
       babelConfig: {
