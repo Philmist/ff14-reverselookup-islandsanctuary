@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import PastureClassSelector from './PastureClassSelector.jsx';
 import PastureTable from './PastureTable.jsx';
-import masterData from '../json-data/pasture.json' assert { type: 'json' };
+import masterData from '../json-data/pasture.json';
 
 function ButtonGranaryPasture ({ granary, setCheckedPastureDict }) {
   const selectCheckboxes = () => {

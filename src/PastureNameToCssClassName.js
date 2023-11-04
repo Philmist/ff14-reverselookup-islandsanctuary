@@ -1,4 +1,4 @@
-import masterData from "../json-data/pasture.json" assert { type: "json" };
+import masterData from "../json-data/pasture.json";
 
 function pastureNameToCssClassName(name) {
     const materialClassNames = {

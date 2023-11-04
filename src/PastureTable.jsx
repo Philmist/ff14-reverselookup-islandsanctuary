@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import masterData from '../json-data/pasture.json' assert { type: 'json' };
+import masterData from '../json-data/pasture.json';
 import PastureNameToCssClassName from './PastureNameToCssClassName.js'
 
 function PastureTable({ checkedPasture }) {
